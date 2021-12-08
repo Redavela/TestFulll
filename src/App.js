@@ -7,9 +7,9 @@ import ReactLevelTwo from './component/ReactLevelTwo';
 function App() {
   return (
     <div className="App">
+    <FizzBuzz/>
     <ReactLevelOne/>
     <ReactLevelTwo/>
-    <FizzBuzz/>
     </div>
   );
 }

@@ -25,8 +25,8 @@ const FizzBuzz = () => {
         <button onClick={resetRadioState}>Reset</button>
         {/* Si start est à true on fait apparaitre le h2 */}
         {start && <h2> 
-          { 
             {/* Les diffèrentes conditions */}
+          { 
             (count === "") ? '' :
             (count % 15 === 0) ? "FizzBuzz" : 
             (count % 3 === 0)  ? "Fizz"     : 
