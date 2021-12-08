@@ -2,11 +2,12 @@ import React from 'react';
 import { useState } from 'react';
 
 const ReactLevelTwo = () => {
+  //On initialise les states ici.
   const [user, setUser] = useState('');
   const [data, setData] = useState([]);
   const [error, setError] = useState('');
   const [noResult, setNoResult] = useState('');
-
+  //fonction pour récuperer la valeur de l'input et mettre a jour le state de error
   const handleChange = (e) => {
     if (error) {
       setError('');
@@ -14,7 +15,7 @@ const ReactLevelTwo = () => {
 
     setUser(e.target.value);
   };
-
+//fonction qui en fonction de l'information données dans l'input vas faire une requète fetch
   const handleSubmit = (e) => {
     e.preventDefault();
     if (user !== '') {
@@ -23,21 +24,25 @@ const ReactLevelTwo = () => {
           return response.json();
         })
         .then((data) => {
+          //Un tableau ne sera jamais égale à un autre tableau alors la solution est de mettre .length en condition
           if (data.items.length > 0) {
             setNoResult('');
             setData(data.items);
-          } else {
+          } //Si le tableau est vide on change les infos des diffèrent states
+          else {
             setNoResult("Désolé, la recherche n'a rien donnée");
             setData(data.items);
             setError('');
           }
-        })
+        })//Si une erreur ce produit on l'as récupère ici
         .catch((error) => {
           setData([]);
           setNoResult('');
           setError("Une erreur s'est produite");
         });
-    } else {
+    } //Sinon on renvoie un tableau vide
+    else {
+
       setData([]);
     }
   };
@@ -52,11 +57,13 @@ const ReactLevelTwo = () => {
           id="user"
           name="user"
           value={user}
+          //La fonction est appelé ici
           onChange={handleChange}
         />
         <button type="submit">Launch</button>
       </form>
       <div>
+      {/* Si la requête à fonction on fait un map des données récupérés et on les affiches dans une liste */}
         {data.length > 0 && (
           <ul>
             {data.map((item) => (
@@ -64,6 +71,7 @@ const ReactLevelTwo = () => {
             ))}
           </ul>
         )}
+        {/* Sinon on affiche soit une erreur soit une recherche sans reponse */}
         {noResult && <p>{noResult}</p>}
         {error && <p>{error}</p>}
       </div>
