@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.fizzBuzz, .checkBoxes, .fetchGithub{
+  height: 200px;
+  padding: 20px 0 ;
+}
+
+p, label{
+  font-weight: bold;
+  color: blue;
+}
+
+input, button{
+  padding: 5px;
+  margin: 5px;
+  border-radius: 4px;
+}
+
+li{
+  list-style: none;
+  font-weight: bold;
+  margin: 15px 0;
+  color: blue;
+}
+
+h1{
+  color: rgb(243, 59, 35);
+}
