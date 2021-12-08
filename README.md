@@ -1,6 +1,6 @@
 # Test Algo + Frontend FULLL
 
-Le test d'algo pour incrémenter un tableau et dans le dossier algo, les autres test (FizzBuzz et les deux test frontend) sont dans le dossier component.
+The increment algo test is in the folder algo (file Function.js), the others tests (FizzBuzz and frontend) are in the folder component.
 
 
 ## Getting Started with Create React App
