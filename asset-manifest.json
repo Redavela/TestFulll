@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/TestFulll/static/css/main.08aea756.chunk.css",
-    "main.js": "/TestFulll/static/js/main.8cb40363.chunk.js",
-    "main.js.map": "/TestFulll/static/js/main.8cb40363.chunk.js.map",
+    "main.css": "/TestFulll/static/css/main.1f92e192.chunk.css",
+    "main.js": "/TestFulll/static/js/main.3744fe43.chunk.js",
+    "main.js.map": "/TestFulll/static/js/main.3744fe43.chunk.js.map",
     "runtime-main.js": "/TestFulll/static/js/runtime-main.d8dca5b0.js",
     "runtime-main.js.map": "/TestFulll/static/js/runtime-main.d8dca5b0.js.map",
-    "static/js/2.9a780683.chunk.js": "/TestFulll/static/js/2.9a780683.chunk.js",
-    "static/js/2.9a780683.chunk.js.map": "/TestFulll/static/js/2.9a780683.chunk.js.map",
+    "static/js/2.3dbcd3b5.chunk.js": "/TestFulll/static/js/2.3dbcd3b5.chunk.js",
+    "static/js/2.3dbcd3b5.chunk.js.map": "/TestFulll/static/js/2.3dbcd3b5.chunk.js.map",
     "index.html": "/TestFulll/index.html",
-    "static/css/main.08aea756.chunk.css.map": "/TestFulll/static/css/main.08aea756.chunk.css.map",
-    "static/js/2.9a780683.chunk.js.LICENSE.txt": "/TestFulll/static/js/2.9a780683.chunk.js.LICENSE.txt"
+    "static/css/main.1f92e192.chunk.css.map": "/TestFulll/static/css/main.1f92e192.chunk.css.map",
+    "static/js/2.3dbcd3b5.chunk.js.LICENSE.txt": "/TestFulll/static/js/2.3dbcd3b5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d8dca5b0.js",
-    "static/js/2.9a780683.chunk.js",
-    "static/css/main.08aea756.chunk.css",
-    "static/js/main.8cb40363.chunk.js"
+    "static/js/2.3dbcd3b5.chunk.js",
+    "static/css/main.1f92e192.chunk.css",
+    "static/js/main.3744fe43.chunk.js"
   ]
 }
