@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Redavela.github.io/TestFulll/static/css/main.08aea756.chunk.css",
+    "main.js": "/Redavela.github.io/TestFulll/static/js/main.8cb40363.chunk.js",
+    "main.js.map": "/Redavela.github.io/TestFulll/static/js/main.8cb40363.chunk.js.map",
+    "runtime-main.js": "/Redavela.github.io/TestFulll/static/js/runtime-main.3749faf8.js",
+    "runtime-main.js.map": "/Redavela.github.io/TestFulll/static/js/runtime-main.3749faf8.js.map",
+    "static/js/2.9a780683.chunk.js": "/Redavela.github.io/TestFulll/static/js/2.9a780683.chunk.js",
+    "static/js/2.9a780683.chunk.js.map": "/Redavela.github.io/TestFulll/static/js/2.9a780683.chunk.js.map",
+    "index.html": "/Redavela.github.io/TestFulll/index.html",
+    "static/css/main.08aea756.chunk.css.map": "/Redavela.github.io/TestFulll/static/css/main.08aea756.chunk.css.map",
+    "static/js/2.9a780683.chunk.js.LICENSE.txt": "/Redavela.github.io/TestFulll/static/js/2.9a780683.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3749faf8.js",
+    "static/js/2.9a780683.chunk.js",
+    "static/css/main.08aea756.chunk.css",
+    "static/js/main.8cb40363.chunk.js"
+  ]
+}
